@@ -1,0 +1,68 @@
+.container {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: inline-flex;
+  flex-flow: row wrap;
+  align-items: center;
+  border-bottom: .5px solid black;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+.title {
+  margin: auto 0;
+}
+
+a {
+  text-decoration: none;
+  padding-left: 10px;
+  color: black;
+}
+
+.nav{
+  margin-left: 760px;
+}
+
+div.main-news{
+  display: flex;
+  flex: row nowrap;
+  width: 1175px;
+  justify-content: flex-start;
+  border: 0.5px solid black;
+}
+
+
+.large {
+  width: 630px;
+  border: 1px solid black;
+  margin-right: 30px;
+}
+
+.medium {
+  width: 300px;
+  border: 2px solid black;
+  margin-right: 30px;
+}
+
+.small {
+  width: 240px;
+  border: 1.5px solid black;
+  margin-right: 30px;
+}
+
+#bites{
+  border: 1px solid black;
+}
+
+#fbi{
+  border: 2px solid black;
+}
+
+#cats{
+  border: 1px solid black;
+  height: 30px;
+}
